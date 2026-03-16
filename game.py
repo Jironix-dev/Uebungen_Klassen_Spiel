@@ -7,7 +7,7 @@ from player import Player
 Hulk = Player("Hulk", 5)
 Flash = Player("Flash", 3)
 
-Flash.hurt(87)
+Flash.health = 13
 print(f"Flash Health = {Flash.health}")
 print(f"Hulk Health = {Hulk.health}")
 
