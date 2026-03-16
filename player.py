@@ -2,10 +2,11 @@
 class Player:
 
     # Konstruktor
-    def __init__(self, name):
+    def __init__(self, name, strength):
         # Startposition des Spielers soll immer 10,200 sein.
         self.name = name
         self.health = 100
+        self.strength = strength
 
     def heal(self, life):
         self.health += life
